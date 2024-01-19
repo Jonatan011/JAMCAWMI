@@ -1,0 +1,67 @@
+
+{% load static %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="{% static  '/css/main.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>JAMC-AWMI</title>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-info h-40">
+                    <div class="card-header bg-info text-white">
+                        <h2><i class="fas fa-phone"></i> ¿Tienes alguna pregunta? Estamos aquí para ayudarte</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Si tienes alguna duda sobre nuestros servicios, quieres solicitar un presupuesto o simplemente quieres saludarnos, no dudes en enviarnos un mensaje. Te responderemos lo antes posible y te ofreceremos la mejor solución para tu proyecto.
+                        </p>
+                        <div class="list-group">
+                            <a href="mailto:info@jamcawmi.com" class="list-group-item list-group-item-action">
+                                <i class="fas fa-envelope"></i> Correo electrónico: info@jamcawmi.com
+                            </a>
+                            <a href="https://wa.me/571234567890" class="list-group-item list-group-item-action">
+                                <i class="fab fa-whatsapp"></i> WhatsApp: +57 310 792 0538
+                            </a>
+                            <a href="https://www.facebook.com/jamcawmi" class="list-group-item list-group-item-action">
+                                <i class="fab fa-facebook"></i> Facebook: facebook.com/jamcawmi
+                            </a>
+                            <a href="https://twitter.com/jamcawmi" class="list-group-item list-group-item-action">
+                                <i class="fab fa-twitter"></i> Twitter: @jamcawmi
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-info text-white">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img  id="icon-pic" src="{% static 'images/logo6.jpg' %}" alt="Jamcawmi">
+                                <p>Jamcawmi - Diseño de APIs a tu medida</p>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="privacidad.html" class="text-white">Política de privacidad</a></li>
+                                    <li class="list-inline-item"><a href="terminos.html" class="text-white">Términos y condiciones</a></li>
+                                    <li class="list-inline-item"><a href="aviso.html" class="text-white">Aviso legal</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

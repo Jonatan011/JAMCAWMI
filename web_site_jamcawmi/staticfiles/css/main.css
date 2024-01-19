@@ -1,0 +1,42 @@
+h3{
+    color: red;
+}
+
+#profile-wrapper{
+    text-align:  center;
+}
+#profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+#icon-pic{
+    width: 40;
+    height: 40px;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+
+p {
+    font-family: "Roboto", sans-serif; /* Usamos una fuente personalizada de Google Fonts */
+    font-size: 1rem; /* Usamos una unidad relativa para el tamaño de la fuente */
+    font-weight: 550; /* Hacemos que el texto sea grueso */
+    color: #333333; /* Usamos un valor hexadecimal para el color de la letra */
+    text-align: justify; /* Alineamos el texto de forma justificada */
+    text-indent: 10px; /* Hacemos un sangrado de 20 pixeles en el primer renglón */
+}
+
+body {
+    background: linear-gradient(to right, lightblue, darkgray);
+}
+
+h2 {
+    font-family: "Roboto", sans-serif; /* Usamos una fuente personalizada de Google Fonts */
+    font-size: 2rem; /* Usamos una unidad relativa para el tamaño de la fuente */
+    font-weight: bold; /* Hacemos que el texto sea grueso */
+    color: blue; /* Usamos un valor predefinido para el color de la letra */
+    text-shadow: 2px 2px 5px gray; /* Añadimos una sombra al texto con un desplazamiento de 2 pixeles, un radio de 5 pixeles y un color gris */
+}
