@@ -19,3 +19,12 @@ def faq(request):
 
 def contact(request):
     return render(request, 'homepage/contact.html')
+
+def terms(request):
+    return render(request, 'homepage/terms.html')
+
+def privacy(request):
+    return render(request, 'homepage/privacy.html')
+
+def legal(request):
+    return render(request, 'homepage/legal.html')

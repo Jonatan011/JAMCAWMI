@@ -28,17 +28,17 @@
                             Si tienes alguna duda sobre nuestros servicios, quieres solicitar un presupuesto o simplemente quieres saludarnos, no dudes en enviarnos un mensaje. Te responderemos lo antes posible y te ofreceremos la mejor solución para tu proyecto.
                         </p>
                         <div class="list-group">
-                            <a href="mailto:info@jamcawmi.com" class="list-group-item list-group-item-action">
-                                <i class="fas fa-envelope"></i> Correo electrónico: info@jamcawmi.com
+                            <!--<a href="mailto:info@jamcawmi.com" class="list-group-item list-group-item-action">
+                                <i class="fas fa-envelope"></i> Correo electrónico: info@jamcawmi.com-->
                             </a>
-                            <a href="https://wa.me/571234567890" class="list-group-item list-group-item-action">
+                            <a href="https://wa.me/573107920538" class="list-group-item list-group-item-action">
                                 <i class="fab fa-whatsapp"></i> WhatsApp: +57 310 792 0538
                             </a>
-                            <a href="https://www.facebook.com/jamcawmi" class="list-group-item list-group-item-action">
+                            <!-- <a href="https://www.facebook.com/jamcawmi" class="list-group-item list-group-item-action">
                                 <i class="fab fa-facebook"></i> Facebook: facebook.com/jamcawmi
                             </a>
                             <a href="https://twitter.com/jamcawmi" class="list-group-item list-group-item-action">
-                                <i class="fab fa-twitter"></i> Twitter: @jamcawmi
+                                <i class="fab fa-twitter"></i> Twitter: @jamcawmi-->
                             </a>
                         </div>
                     </div>
@@ -46,13 +46,13 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <img  id="icon-pic" src="{% static 'images/logo6.jpg' %}" alt="Jamcawmi">
-                                <p>Jamcawmi - Diseño de APIs a tu medida</p>
+                                <p>Jamcawmi - Diseño de apps a tu medida</p>
                             </div>
                             <div class="col-md-6">
                                 <ul class="list-inline">
-                                    <li class="list-inline-item"><a href="privacidad.html" class="text-white">Política de privacidad</a></li>
-                                    <li class="list-inline-item"><a href="terminos.html" class="text-white">Términos y condiciones</a></li>
-                                    <li class="list-inline-item"><a href="aviso.html" class="text-white">Aviso legal</a></li>
+                                    <li class="list-inline-item"><a href="{% url 'privacy' %}" class="text-white">Política de privacidad</a></li>
+                                    <li class="list-inline-item"><a href="{% url 'terms' %}" class="text-white">Términos y condiciones</a></li>
+                                    <li class="list-inline-item"><a href="{% url 'legal' %}" class="text-white">Aviso legal</a></li>
                                 </ul>
                             </div>
                         </div>
